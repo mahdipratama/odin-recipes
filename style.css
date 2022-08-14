@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/images/new-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  font-family: 'Anek Telugu' sans-serif;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Rubik Dirt';
+  font-size: 5rem;
+  margin: 2rem 10rem;
+  color: #D97F11;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.container {
+  text-align: center;
+}
+
+.subtitle {
+  margin: 3rem 0;
+  
+}
+
+.subtitle h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  background-color: #b16441;
+}
+
+.recipes-list li {
+  list-style: none;
+}
+
+.recipes-list li a {
+  color: #fdfcfd;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  background-color: #b16441;
+}
+
+.recipes-list li a:hover {
+  text-decoration: underline;
+}
+
